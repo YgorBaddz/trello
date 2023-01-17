@@ -1,0 +1,128 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: rgb(254, 239, 214);
+    background: linear-gradient(22deg, rgba(254, 251, 214, 1) 0%, rgba(236, 132, 255, 1) 100%);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 35px;
+    margin: 30px;
+    background: #fffffffa;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #0000001a;
+    border: 1px solid #ffffff3d;
+    backdrop-filter: blur(6px);
+}
+
+.form_button {
+    padding: 0.2em 1.8em;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 0.5em;
+    background: transparent;
+    border: 1px solid #000000;
+    transition: all 0.3s;
+}
+
+.form_button:hover {
+    background: rgba(247, 247, 198, 0.37);
+    transition: all 0.3s;
+}
+
+.delete_btn {
+    margin-top: 30px;
+}
+
+.delete_btn:hover {
+    background: rgba(245, 131, 131, 0.301);
+}
+
+.board {
+    display: flex;
+    overflow: hidden;
+    min-width: 600px;
+    padding: 35px;
+    margin-top: 20px;
+    background: #ffffff1a;
+    backdrop-filter: blur(6px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #0000001a;
+    border: 1px solid #ffffff3d;
+}
+
+.form_input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+.edit-list, .delete-list, .delete-text {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.ico {
+    width: 25px;
+    height: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-card {
+    cursor: pointer;
+}
+
+.card-text {
+    margin: 10px;
+    background: #ffffff3b;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px #0000001a;
+    border: 1px solid #ffffff3d;
+}
+
+.list {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 2rem;
+    border: 2px solid #000;
+    padding: 14px;
+    border-radius: 8px;
+}
